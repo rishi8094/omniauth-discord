@@ -9,7 +9,7 @@ Read the Discord API documentation for more details: https://discord.com/develop
 Add to your `Gemfile`:
 
 ```ruby
-gem 'omniauth-discord'
+gem 'omniauth-discord', git: 'https://github.com/rishi8094/omniauth-discord'
 ```
 
 Then `bundle install`.
