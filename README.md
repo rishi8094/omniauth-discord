@@ -2,7 +2,7 @@
 
 Discord OAuth2 Strategy for OmniAuth.
 
-Read the Discord API documentation for more details: https://discordapp.com/developers/docs/topics/oauth2
+Read the Discord API documentation for more details: https://discord.com/developers/docs/topics/oauth2
 
 ## Installing
 
@@ -27,7 +27,7 @@ end
 ```
 
 By default, Discord does not return a user's email address. Their API uses
-[scopes](https://discordapp.com/developers/docs/topics/oauth2#scopes) to provide
+[scopes](https://discord.com/developers/docs/topics/oauth2#scopes) to provide
 access to certain resources of a user's account. For example, to get a user's
 email set the scope to `email`.
 
@@ -72,7 +72,7 @@ permissions.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/adaoraul/omniauth-discord.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rishi8094/omniauth-discord.
 
 
 ## License
