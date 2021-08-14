@@ -20,6 +20,7 @@ module OmniAuth
         {
           name: raw_info['username'],
           email: raw_info['verified'] ? raw_info['email'] : nil,
+          # CDN is still cdn.discordapp.com
           image: "https://cdn.discordapp.com/avatars/#{raw_info['id']}/#{raw_info['avatar']}"
         }
       end
